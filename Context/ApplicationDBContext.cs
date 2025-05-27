@@ -12,7 +12,7 @@ public class ApplicationDBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=OmanDrivingSchoolDB;User Id=SA;Password=qKTxTjgSzDhs0EykMhbqmwrktJUeeNX#;Encrypt=False;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=OmanDrivingSchoolDB;User Id=SA;Password=;Encrypt=False;TrustServerCertificate=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
